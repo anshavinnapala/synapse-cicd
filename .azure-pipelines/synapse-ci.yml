@@ -1,5 +1,10 @@
-trigger: none
+trigger: 
+- main
 
+pool:
+  name: 'ubuntu'
+  vmImage: 'ubuntu-latest'
+ 
 stages:
  - stage: plan
    displayName: 'Integrate'
